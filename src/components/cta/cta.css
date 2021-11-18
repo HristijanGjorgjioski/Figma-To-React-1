@@ -31,7 +31,7 @@
 }
 
 .gpt3__cta-btn button {
-    color: #000000;
+    background: #000000;
     color: #FFFFFF;
     border-radius: 40px;
     padding: 0.5rem 1rem;
@@ -44,4 +44,30 @@
     outline: none;
     cursor: pointer;
     min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__cta {
+        flex-direction: column;
+    }
+
+    .gpt3__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__cta {
+        margin: 4rem 2rem;
+    }
+
+    .gpt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
 }
