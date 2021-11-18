@@ -40,6 +40,7 @@
     line-height: 30px;
     margin-bottom: 5rem;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .gpt3__blog-container_article-content p:last-child {
